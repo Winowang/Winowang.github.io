@@ -1,7 +1,7 @@
 
 
-```markdown
-# <font color=#0099ff>Welcome to Winowang personal page</font>
+
+# Welcome to Winowang personal page
 
 
 This a page to show the personal collection which includes the Deep Learning, Machine Learning and some others useful information on the IT or physical knowlwdge(as I am PhD in particel physics even I quited the physics field, I'd like to keep this).
