@@ -5,7 +5,7 @@ This a page to show the personal collection which includes the Deep Learning, Ma
 Still you can find some my personal project later and will update those regularly. 
 
 # The Deep Learning 
- ## [TensorFlow](https://github.com/Winowang/Winowang.github.io/tree/master/Deep%20Learning)
+ ## [TensorFlow](https://github.com/Winowang/Winowang.github.io/blob/master/Deep%20Learning/TensorFlow/BasicInfo.md)
  ## ...
  
 waiting for more updates
