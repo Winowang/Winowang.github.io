@@ -1,12 +1,12 @@
-## Welcome to Winowang personal page
+# Welcome to Winowang personal page
 
 This a page to show the personal collection which includes the Deep Learning, Machine Learning and some others useful information on the IT or physical knowlwdge(as I am PhD in particel physics even I quited the physics field, I'd like to keep this).
 
 Still you can find some my personal project later and will update those regularly. 
 
-# The Deep Learning 
- ## [TensorFlow](https://github.com/Winowang/Winowang.github.io/blob/master/Deep%20Learning/TensorFlow/BasicInfo.md)
- ## ...
+## The Deep Learning 
+ ### [TensorFlow](https://github.com/Winowang/Winowang.github.io/blob/master/Deep%20Learning/TensorFlow/BasicInfo.md)
+ ### ...
  
 waiting for more updates
 
