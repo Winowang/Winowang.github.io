@@ -22,6 +22,11 @@ intepreter 设置 anaconda 的安装路径， 例如在 D/app/ananconda/python/.
 解决 updating indeice 问题， 在  setting 中 的 project： 找到相应prokect 把不想的content 添加到excluded 。
 
 
+
+tensdorflow 简单直接的介绍和简单应用
+http://blog.jobbole.com/105602/
+
+
 **More about the tensorflow:**
 tensorflow usefull info:
 
