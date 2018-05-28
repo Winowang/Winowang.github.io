@@ -1,6 +1,7 @@
 # Tensorflow tips 
 
-**How to install the tensorflow**
+**How to install the tensorflow
+
 http://www.tensorflownews.com/2018/03/28/tensorflow-windows-install/
 在安装Tensorflow前，我们要先安装Anaconda，因为它集成了很多Python的第三方库及其依赖项，方便我们在编程中直接调用。
 
