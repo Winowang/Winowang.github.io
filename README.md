@@ -1,4 +1,8 @@
-# Welcome to Winowang personal page
+
+<font color=#0099ff>
+ # Welcome to Winowang personal page
+</font>
+
 
 This a page to show the personal collection which includes the Deep Learning, Machine Learning and some others useful information on the IT or physical knowlwdge(as I am PhD in particel physics even I quited the physics field, I'd like to keep this).
 
@@ -13,12 +17,17 @@ waiting for more updates
 
 **Instruction of the writing rules**
 
-GitHub在线创建文件夹
+**GitHub上README.md排版样式教程**
+https://blog.csdn.net/u012067966/article/details/50736647
+
+
+**GitHub在线创建文件夹**
 点击New files按钮，然后输入含有slash字符（“/”）的文件名即可。也就是建立一个含有路径（目录）的文件，即会自动产生新文件夹。
 点击Upload files按钮，然后直接把本地的文件夹（内含文件）拖进去批处理上传。
 
-
 **Instruction of the writing rules**
+
+
 
 ## Welcome to GitHub Pages
 
