@@ -12,9 +12,17 @@ Still you can find some my personal project later and will update those regularl
  ### [TensorFlow](https://github.com/Winowang/Winowang.github.io/blob/master/Deep%20Learning/TensorFlow/BasicInfo.md)
  ### ...
  
+ 
+ 
+## IT Knowledges collections
+ ### [Conatainer vs Virtual machine](https://github.com/Winowang/Winowang.github.io/blob/master/IT/Container_vs_VM.md)
+ ### ... 
+ 
 waiting for more updates
 
 
+
+**Tips for using
 **Instruction of the writing rules**
 
 **GitHub上README.md排版样式教程**
@@ -26,7 +34,6 @@ https://blog.csdn.net/u012067966/article/details/50736647
 点击Upload files按钮，然后直接把本地的文件夹（内含文件）拖进去批处理上传。
 
 **Instruction of the writing rules**
-
 
 
 ## Welcome to GitHub Pages
