@@ -1,0 +1,246 @@
+ 1 Cross section.
+
+The nuclear cross section of a nucleus is used to characterize the probability that a nuclear reaction will occur. The concept of a nuclear cross section can be quantified physically in terms of "characteristic area" where a larger area means a larger probability of interaction. The standard unit for measuring a nuclear cross section (denoted as σ) is the barn, which is equal to 10−28 mÂ² or 10−24 cmÂ². Cross sections can be measured for all possible interaction processes together, in which case they are called total cross sections, or for specific processes, distinguishing elastic scattering and inelastic scattering; of the latter, amongst neutron cross sections the absorption cross sections are of particular interest.
+
+We then have as the definition of differential cross section
+
+This has the simple interpretation of the probability of finding a scattered particle within a given solid angle.
+
+A cross section is therefore a measure of the effective surface area seen by the impinging particles, and as such is expressed in units of area. Usual units are the cm2, the barn (1 b = 10−28 m2) and the corresponding submultiples: the millibarn (1 mb = 10−3 b), the microbarn (1 b = 10−6 b), the nanobarn ( 1 nb = 10−9 b), the picobarn (1 pb = 10−12 b), and the shed (1 shed = 10−24 b). The cross section of two particles (i.e. observed when the two particles are colliding with each other) is a measure of the interaction event between the two particles. The cross section is proportional to the probability that an interaction will occur;
+
+The production occurs via the creation of a quark loop, like the triangle shown in the graph on the right. Any quark may run in the loop, but the top quark dominates the proceedings, because quarks couple to the Higgs boson proportionally to their mass squared, and the square of the top quark mass is ten thousand times larger than that of the next-in-line, the bottom quark.
+
+Fiducial cross section, in particle physics experiments, a cross section for the subset of a process in which the distinctive process signatures are visible within the sensitive regions of the detector volume. The definition now commonly means a cross section with kinematic and other selection cuts consistent with the sensitive detector acceptance applied, but in which detector inefficiencies are corrected for within that volume. These corrections are typically derived by applying the fiducial cuts on collections of simulated collision events, with and without detector simulation, and inverting the resulting detector transfer function. Fiducial cross sections are favoured for many purposes because they minimise extrapolation into experimentally invisible phase space, and are hence maximally model-independent.
+
+In theories beyond the SM, the properties of the 125 GeV Higgs boson may not be determined only by a simple scaling of couplings. Instead, the kinematic distributions in the various Higgs production and decay channels may be sensitively modified by BSM (incl. EFT) effects. Fiducial cross sections (FXS), i.e. cross sections, whether total or differential, for specific states within the phase space defined by experimental selection and acceptance cuts, provide a largely model-independent way to test for such deviations in kinematic distributions. In particular, differential FXS are a powerful for scrutinizing the SM Lagrangian structure of the Higgs boson interactions, including tests for new tensorial couplings, non-standard production modes, determination of effective form factors, etc.
+
+The measurement of Higgs FXS was already strongly advocated in Section 6 of On the presentation of the LHC Higgs Results arXiv:1307.5865. There are, however, several questions to address on both, the experimental and the theoretical sides, for making most out of FXS measurements. On the experimental side these include, for example, the definition of the fiducial volumes and the unfolding procedure. On the theory side, important issues include the precision of Monte Carlo simulations, the expected BSM effects, and whether some BSM effects might affect the unfolding. The aim of this group is to investigate these questions and provide a coherent view of the state of the art in YR4.
+
+2. ww zz bb br
+
+The dip of the ZZ branching ratio - and all other branching ratios except for the WW branching ratio - near 170 GeV is caused by the increase of the total width (decay rate) at those masses. And the total width (decay rate) around 170 GeV increases exactly because the Higgs decays to the WW final states start to become possible. Because the total width goes up, the ratio of a (non-WW) partial width and the total width goes down - and this ratio is what we call the branching ratio.
+
+But I want to emphasize a subtle point: note that in your graph, the branching ratio to WW is nonzero already from Higgs masses at 80 GeV or so. Similarly, the branching ratio to ZZ is nonzero from 90 GeV. How can a 90 GeV Higgs decay to two Z's, each of which has mass close to 90 GeV? Doesn't it violate energy conservation?
+
+The answer is that the graph shows the decays to off-shell particles, not the final states. A Higgs boson may decay to one virtual and one real Z-boson. The virtual particle continues in its decay. To check this hypothesis, note that all decay channels in the graph are composed out of two particles. The actual final states of the decay will often include (many) more than two particles.
+
+When the Higgs mass exceeds two times the mass of the W-bosons, the total width genuinely goes up because there's suddenly a lot of new "phase space" of the final states.
+
+Therefore, around 170 GeV you are below the threshold for ZZ, but above the threshold for WW.
+
+But I also think that this dip tends to be overemphasised on such a graph. First because of the logarithmic scale, and also since the branching ratio is the relative to the full width.
+
+3. why two higgs
+
+As you know, we are search for new particle whose mass was not known, so we will search it at any mass points. Now we found one with 125 GeV, then this particle only has one mass, but we still can search for the other new particles at any mass point.
+
+4. Pileup, luminosity?
+
+Out of time pile-up:
+
+This is due to the superimposition of signals in the detector that come from different bunch crossings (collisions). The most important example is pile-up of calorimeter signals.
+
+In time pile-up:
+
+Particles emerging from “secondary” vertices constitutes pile-up signals to the interesting event within the same bunch crossing. All the tracks, the energy deposit in the calorimeter of those particle is a source of in time pile-up. A direct measure of the in time pile-up contribution to the event is the number of reconstructed vertices in the event (all the vertices with at least two tracks).
+
+More collision energy means more pileup interactions; these occur when our detector can not distinguish between two separate collision events and thus considers them part of the same collision. We need to disentangle the pileup contribution to look at the real single collision event, and while a lot of work has been done in this direction, an increase in pileup is always a cause for concern. However, as someone working closely with Monte-Carlo tuning and production, I know firsthand how big of an issue this is going to be for us.
+
+Pile-up occurs when the readout of a particle detector includes information from more than one primary beam particle interaction - these multiple interactions are said to be "piling-up".
+
+The LHC has had it's instantaneous luminosity increase to a point where they are getting many collisions per bunch crossing which complicates the job of the trackers in finding the vertices of all the events. They will use luminosity levelling to reduce the lumi at the beginning of the run by changing the crossing angle at the interaction points to reduce pileup when the beams are fresh then slowly bring the beams tighter as they loose protons to collisions and collimation to keep the number of interactions relatively constant over the length of a run, hopefully improving the amount of time taking data verses set up.
+
+Pile-up occurs when the readout of a particle detector includes information from more than one primary beam particle interaction - these multiple interactions are said to be "piling-up". At the LHC design luminosity of 1.0 x 1034 cm-2s-1 pile-up is a major issue for ATLAS detector because the LHC beams will produce an average of 23 interactions each time they cross and the ATLAS detector is sensitive to tracks from more than one bunch crossing (the beams cross every 25 ns). This means that in addition to the hits of the physics event that triggers the detector readout, hits caused by many other interactions are recorded in the readout. The hits from these other interactions are not related to the physics event and represent a serious background. The number of interactions that will occur when the beams cross follows a Poisson distribution with an expected mean value of 23 interactions at design luminosity. The Poisson distribution has a long tail above the most probable value, so a substantial fraction of the bunch crossings will have more than the average number of interactions. The average number of interactions created in a bunch crossing scales linearly with luminosity. For example, at half design luminosity there will be have an average of 11.5 interactions per bunch crossing and at twice design luminosity will be an average of 46. In addition, most of the ATLAS sub detectors are sensitive to tracks produced in bunch crossings both before and after the bunch crossing containing the physics event. The sub detectors vary greatly in how many additional bunch crossings they are sensitive to. In this document the bunch crossings before the crossing containing the physics event are counted as being negative (-1, -2, -3, etc.), the crossing containing the physics event is 0, and the crossings after the physics event are positive (+1, +2, +3, etc.).
+
+This is a pile-up event, in which four separate collisions occurred (vertices at the red dots) when two bunches of LHC protons crossed each other inside ATLAS. There are about 100 billion protons in a bunch, so four collisions is not all that many--except that protons are incredibly small. In fact, most protons miss each other in a bunch crossing. Currently, there are about four million bunch crossings per second and this is being increased the LHC ramps up. Even four collisions per crossing are quite enough for now.
+
+In high-luminosity colliders, there is a non-negligible probability that one single bunch crossing may produce several separate events, so-called pile-up events. This in particular applies to future pp colliders like LHC, but one could also consider e.g. ee colliders with high rates of gamma gamma collisions. The program therefore contains an option, currently only applicable to hadron-hadron collisions, wherein several events may be generated and put one after the other in the event record, to simulate the full amount of particle production a detector might be facing.
+
+In scattering theory and accelerator physics, luminosity is the number of particles per unit area per unit time times the opacity of the target, usually expressed in either the cgs units cm−2 s−1 or b−1 s−1. The integrated luminosity is the integral of the luminosity with respect to time. The luminosity is an important value to characterize the performance of an accelerator.
+
+Rather than continuous beams, the protons will be bunched together, into 2,808 bunches, 115 billion protons in each bunch so that interactions between the two beams will take place at discrete intervals never shorter than25 nanoseconds (ns) apart. However it will be operated with fewer bunches when it is first commissioned, giving it a bunch crossing interval of 75 ns. [[http://en.wikipedia.org/wiki/Large_Hadron_Collider#cite_note-commissioning-36][[36]]] The design luminosity of the LHC is 1034 cm−2s−1, providing a bunch collision rate of 40 MHz
+
+5. Br
+
+In particle physics and nuclear physics, the branching fraction for a decay is the fraction of particles which decay by an individual decay mode with respect to the total number of particles which decay. [[http://en.wikipedia.org/wiki/Branching_fraction#cite_note-1][[1]]] It is equal to the ratio of the partial decay constant to the overall decay constant. Sometimes a partial half-life is given, but this term is misleading; due to competing modes it is not true that half of the particles will decay through a particular decay mode after its partial half-life. The partial half-life is merely an alternate way to specify the partial decay constant λ, the two being related through:
+
+6. event number.
+
+In particle physics, an event refers to the results just after a fundamental interaction took place between subatomic particles, occurring in a very short time span, at a well-localized region of space. Because of the quantum uncertainty principle, an event in particle physics does not have quite the same meaning as it does in the theory of relativity, in which an "event" is an point inspacetime which can be known exactly, i.e. a spacetime coordinate.
+
+In a typical particle physics event, the incoming particles are scattered or destroyed and up to hundreds of particles can be produced, although few are likely to be new particles not discovered before.
+
+At modern particle accelerators, events are the result of the interactions which occur from a beam crossing inside a particle detector.
+
+Physical quantities used to analyze events include the differential cross section, the flux of the beams (which in turn depends on the number density of the particles in the beam and their average velocity), and the rate and luminosity of the experiment.
+
+Individual particle physics events are modeled by scattering theory based on an underlying quantum field theory of the particles and their interactions. The S-matrix is used to characterize the probability of various event outgoing particle states given the incoming particle states. For suitable quantum field theories, the S-matrix may be calculated by a perturbative expansion in terms of Feynman diagrams. At the level of a single Feynman diagram, an "event" occurs when particles and antiparticles emerge from an interaction vertex forwards in time.
+
+Events occur naturally in astrophysics and geophysics, such as subatomic particle showers produced from cosmic ray scattering events
+
+7. Drell-yan
+
+The Drell–Yan process occurs in high energy hadron–hadron scattering. It takes place when a quark of one hadron and an antiquark of another hadron annihilate, creating a virtual photon or Z boson which then decays into a pair of oppositely-charged leptons. This process was first suggested by Sidney Drell and Tung-Mow Yanin 1970 [[http://en.wikipedia.org/wiki/DrellÃ¢Â€Â“Yan_process#cite_note-DrellYan-1][[1]]] to describe the production of lepton–antilepton pairs in high-energy hadron collisions. Experimentally, this process was first observed by J.H. Christenson et al. [[http://en.wikipedia.org/wiki/DrellÃ¢Â€Â“Yan_process#cite_note-Christenson-2][[2]]] in proton–uranium collisions at the Alternating Gradient Synchrotron. The Drell–Yan process is studied both in fixed-target and collider experiments. It provides valuable information about the parton distribution functions (PDFs) which describe the way the momentum of an incoming high-energy nucleon is partitioned among its constituent partons. These PDFs are basic ingredients for calculating essentially all processes at hadron colliders. Although PDFs should be derivable in principle, current ignorance of some aspects of the strong force prevents this. Instead, the forms of the PDFs are deduced from experimental data. The production of Z bosons through the Drell–Yan process affords the opportunity to study the couplings of the Z boson to quarks. The main observable is the forward–backward asymmetry in the angular distribution of the two leptons in their center-of-mass frame.
+
+If heavier neutral gauge bosons exist (see Z' boson), they might be discovered as a peak in the dilepton invariant mass spectrum in much the same way that the standard Z boson appears by virtue of the Drell–Yan process.
+
+8. local p0 goes down.
+
+The p-value is the probability of observing data at least as extreme as that observed, given that the null hypothesis is true. is the p-value where the null hypothesis is “the signal is random background noise” and the x-axis is the mass of the Higgs boson.
+
+9. why pp.???
+
+10. Jet
+
+A jet is a narrow cone of hadrons and other particles produced by the hadronization of aquark or gluon in a particle physics or heavy ion experiment. Because of QCD confinement, particles carrying a color charge, such as quarks, cannot exist in free form. Therefore they fragment into hadrons before they can be directly detected, becoming jets. These jets must be measured in a particle detector and studied in order to determine the properties of the original quark.
+
+In relativistic heavy ion physics, jets are important because the originating hard scattering is a natural probe for the QCD matter created in the collision, and indicate its phase. When the QCD matter undergoes a phase crossover into quark gluon plasma, the energy loss in the medium grows significantly, effectively quenching the outgoing jet.
+
+Caption for Figure B
+This plot shows hypothetical data and expectations that could be used in setting the limits shown in Figure A.
+
+The green curve shows (fictional) predicted results if there were a Higgs boson in addition to all the usual backgrounds. It could also represent the predictions of some other new physics. The dashed black curve shows what is expected from all background processes without a Higgs or some new physics. The black points show the hypothetical data.
+
+In this case, the data points are too low to explain the Higgs boson hypothesis (or whatever new physics the green curve represents), so we can rule out that hypothesis.
+
+Nonetheless the data points are higher than the expectations for the background processes. This could yield an excess such as shown on the left in Figure A. There are three possible explanations for this excess:
+
+    It is a statistical fluctuation above the expected background processes.
+    It is a systematic problem due to an imperfect understanding of the background processes.
+    The excess is due to some different new physics (than that hypothesized) that would predict a smaller excess. 
+
+If instead, the black points lay close to the green curve, that could be evidence for the discovery of the Higgs boson (if it were statistically significant).
+
+If the black points lay on or below the dashed black curve (the expected background), then there is no evidence for a Higgs boson and depending on the statistical significance, the Higgs boson might be ruled out at the corresponding mass.
+
+Instead the detectors register all the decay products (the decay signature) and from the data the decay process is reconstructed. If the observed decay products match a possible decay process (known as a decay channel) of a Higgs boson, this indicates that a Higgs boson may have been created. In practice, many processes may produce similar decay signatures. Fortunately, the Standard Model precisely predicts the likelihood of each of these, and each known process, occurring. So, if the detector detects more decay signatures consistently matching a Higgs boson than would otherwise be expected if Higgs bosons did not exist, then this would be strong evidence that the Higgs boson exists.
+
+11 Prompt lepton
+
+Prompt Lepton: Lepton that originates from primary interaction vertex from interesting physics (EWK or BSM)
+
+Fake Leptons include: Leptons from meson decays in Jets Cosmic rays Jets that punch through to the muon chambers
+
+12 Isolation:
+
+Sum of PT of objects in a cone around the lepton divided by the PT of the lepton. Lower values of isolation means that the particle is more isolated.
+
+Muon isolation variables are used to calculate the energy surrounding the muon along its trajectory released from other particles. Those variables are useful for distinguishing muons from hadron decays and muons from decays of resonances. In ATLAS there are two independent approaches, a calorimeter based and a tracking based method, both define a cone around the muon trajectory in which the energy deposit is calculated. Different cone size are available, respectively ΔR < 0.4, 0.3 and 0.2 Calorimeter based muon isolation variable. This represent the sum of the calorimeter cluster energy in a cone around the muon trajectory of the sizes defined above (ET ΔR < 0.X). A narrow core cone is subtracted to take into account the muon energy deposit. Only calorimeter signals 3.6 σ above noise are considered. Track based muon isolation variable.This is the sum of the transverse momenta (PT) of all the tracks in a cone around the muon trajectory (PT ΔR < 0.X ). Tracks are required to have a small impact parameter with respect to the primary vertex and PT > 1 GeV. The first cuts reduces enormously contributions from pile-up vertices tracks.
+
+13 The transverse (d0) and longitudinal (z0) impactparameters
+
+please take the reference of this slide :
+
+https://indico.cern.ch/event/96989/contributions/2124495/attachments/1114189/1589705/WellsTracking.pdf
+
+http://www.hep.lu.se/atlas/thesis/egede/thesis-node81.html
+
+14 Why high pt
+
+It's importance arises because momentum along the beamline may just be left over from the beam particles, while the transverse momentum is always associated with whatever physics happened at the vertex.
+
+That is, when two protons collide, they each come with three valence quarks and a indeterminate number of sea quarks and gluons. All of those that don't interact keep speeding down the pipe (modulo Fermi motion and final state interaction).
+
+But the partons that react do so on average{*} at rest in the lab frame, and so will on average spray the resulting junk evenly in every direction. By looking at the transverse momentum you get a fairly clean sample of "stuff resulting from interacting partons" and not "stuff resulting from non-interacting partons".
+
+The collisions of protons are complicated, because the proton has a big mess inside. In order to see simple collisions, you want to find those cases where a single quark or gluon, a single parton scattered off another parton in a nearly direct collision. Such collisions are relatively rare, most proton proton collisions are diffractive collective motions of the whole proton, but every once in a while, you see a hard collision.
+
+The characteristic of a hard collision is that you get particles whose momentum is very far off the beam line direction. This is a "high P_T" event. A high P_T electron usually means that an electrically charged parton (a quark) collided with some other parton, and emitted a hard photon or a Z which then produced an electron and a positron. Alternatively, it could mean that a W boson was emitted by the quark, and this produced an electron and a neutrino. Alternatively, it could be a higher order process in the strong interaction, where two gluons produced a quark-antiquark, and one of the quark lines then emitted an electroweak boson, which decayed leptonically.
+
+The point is that any way it happened, the event indicates that a clean hard collision happened between two partons, and this is a useful indication that the event was an interesting one, which will give useful clues about new physics if similar events are isolated and counted.
+
+The reason P_T is important is because when the actual collision event is a short distance collision dominated by perturbative QCD, the outgoing particles are almost always away from the beam-line by a significant amount. Even in interesting events, when the outgoing particles are near the direction of the beam, it is hard to distinguish this from the much more common case of a near glancing collision, which lead to diffractive scattering.
+
+Diffractive scattering is the dominant mechanism of proton proton scattering (or proton antiproton scattering) at high energies. The cross section for diffractive events are calculated by Regge theory, using the Pomeron trajectory. This type of physics has not been so interesting to physicists since the mid 70s, but more for political reasons. It is difficult to calculate, and has little connection with the field theory you are trying to find. But Regge theory is mathematically intimately related to string theory, and perhaps it will be back in fasion again.
+
+15
+
+Why is an isolated neutron unstable?
+
+Both protons and neutrons are hadrons consisting of quarks, which are held by gluons. Then how is an isolated proton stable while an isolated neutron isn't?
+
+A free neutron, composed of two down quarks and one up quark, can decay into a proton (two ups and a down), an antineutrino, and an electron through the W- boson, since a down quark is more massive than the resulting up quark.
+
+However, when a neutron is bound in a stable nucleus, the proton that's left behind by this decay finds itself in an extremely positively charged environment, and is not happy to be there. At all. In fact, the extreme energy cost of swapping a proton in for a neutron in the extreme positive charge environment of a nucleus costs more energy than the neutron releases by converting a down quark into an up quark.
+
+Then why aren't all nuclei composed exclusively of neutrons? Well, let's think about a nucleus with two neutrons and no protons. One of the neutrons can freely decay into a proton without seeing any positive charge. It thinks of itself as a free neutron, and decays straight away into a proton, creating deuterium.
+
+Okay, so clearly we can't have just neutrons. We need to have some protons around to keep the other neutrons from wanting to be protons. What if we have one proton and three neutrons?
+
+These cases, some neutrons and some protons, are more complicated because of the energy shell structure of the nucleus and the Pauli exclusion principle forcing protons and neutrons into high energy states, but suffice to say that a neutron in this scenario prefers to decay to a proton, not remain a neutron, thus creating helium-4. The repulsion of a single extra proton is not sufficient to counteract the neutron's natural inclination to decay, combined with the Pauli exclusion principle forcing the third neutron into a higher energy state, whereas a second proton could sit in the lowest energy state.
+
+I hope I've convinced you that it's a non-trivial question whether it's "better" for a neutron in a given nucleus to decay to a proton or not. We need enough protons around to "convince" the neutrons that it's better not to decay.
+
+So why can't a free proton decay? Well, there are no baryons lighter than the proton, so the proton, if it decays, must do so in a way that converts two quarks to an antilepton and antiquark or something equally bizarre (notice the potential for an attractive matter/antimatter asymmetry explanation). No interactions that can accomplish this are known to exist.
+
+A proton in a nucleus can decay, because the huge electromagnetic repulsion can make it more favorable for a proton to convert to a neutron than to endure the enormous repulsion. In this case, we just run the above diagram in reverse, swapping the W- for a W+, the electron for a positron, and the antineutrino for a neutrino.
+
+Because in case of a neutron there exists a lower-energy state (it is the state consisting a proton, an electron, and an antineutrino), into which it can decay without violation of any conservation laws. In case of a proton no such state exists - proton is the lightest barion, so any decay into lighter particles would have to violate the barion number conservation.
+
+Strictly speaking we are not sure that the barion number is conserved in all processes, and therefore we are not sure, that proton is completely stable. We know however, that it if decays, its lifetime must be very long (well over 1030 years), therefore the eventual barion number violating interactions must be very weak at the energies we are observing.
+
+16
+
+Overview of jet energy calibration at the LHC
+
+The purpose of the jet energy calibration is twofold. First, the energy scale of reconstructed jets does not correspond to the truth-particle jetenergy scale (JES),defined as the energy of jets built from all stable Monte Carlo particles from the hard interaction only, including the underlying event (UE) activity. A dedicated jet energy calibration is then needed to calibrate, on average, the reconstructed jet energy to that of the corresponding truth-particle jet. The energy scale calibration needs to also correct for the e ect of pileup. Second, the jet energy calibration has to bring the energy scale of jets in data and simulation to the same footing.
+
+17
+
+Overlap Removal
+
+‘Overlap removal’ summarises two aspects of the object selection that are similar in their implementation but are performed for different reasons. One of the aspects is the removal of objects that are overlapping due to a double counting of objects by the reconstruction algorithms. In this case only one of the two objects is an actual object while the other is an artefact of the reconstruction mechanism. This concerns electrons and jets, that are both reconstructed as jets by the jet algorithms. Therefore, any
+
+jet that is found to be closer than DR(e;jet)<0: 2 to an electron after applying the object selection criteria is discarded. It can also happen that an electron is erroneously reconstructed twice. In order to reject the second electron, whenever two electrons are found within DR(e1;e2)<0:1, the electron with the lower energy is discarded
+
+The other aspect is the spatial separation of two objects. Leptons can arise from the semileptonic decay of b or c quarks inside a jet. These leptons should in general be re-
+
+jected by the isolation requirements, but a sizeable contribution of leptons inside jets passing the isolation requirements can be seen. Electrons and muons are thus required to be separated from jets by more than DR(lep;jet) =0:4. Muons and electrons are also seen to overlap in the detector when a muon emits bremsstrahlung and the resulting photon is misidentified as an electron. Both objects are rejected in this case if they overlap within DR(μ;e)<0:1 as both are likely to be badly reconstructed.
+
+18
+
+Trigger matching
+
+For plots shown in Figure 2 so called trigger matching was applied. This procedure drops electrons which did not trigger the event, e.g. gammas that were misidentified
+
+as electrons during the reconstruction process. The idea is to match offline electrons to trigger objects with pTover given trigger threshold using minimization of the ∆R distance, defined by Equation 2. Only offline electrons with a trigger object matched in ∆R <0.2 cone were considered.One can see the effect of the trigger matching in Figure 3. After applying trigger matching there is no artifact in the low-pT region that is caused by fake electrons. The efficiency in general is a little bit lower, but comparing the mean plateau efficiencies the efficiencies are the same when taking into account the statistical uncertainity (without trigger matching (0.993 ± 0.005), with trigger matching (0.992 ±0.005)).
+
+19
+
+QCD Background
+
+In simple terms QCD as a "background" usually refers to LHC research where hadronic jets create a lot of particles that clutter up the results you're trying to see. I think it has become a slang term and the use is discouraged.
+
+ABCD method is a tool used to separate the particles of interest (signal) from the "other stuff" (background) made by the jets. It is a set of boundaries that relies on the fact that you have two independent distributions to distinguish between signal and background. See section 5.3 here http://dare.uva.nl/document/221955
+
+20
+
+CalibrationDataInterface (CDI)
+
+https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingCalibrationDataInterface#Basic_interface
+
+21
+
+he Asimov data set
+
+To estimate median value of -2lnλ(μ), consider special data set where all statistical fluctuations suppressed and ni,mi are replaced by their expectation values (the “Asimov” data set):
+
+The name of the Asimov data set is inspired by the short story Franchise, by Isaac Asimov [1]. In it, elections are held by selecting a single voter to represent the entire
+
+electorate.
+
+The "Asimov" Representative Data-set for Estimating Median Sensitivities with the
+
+Profile Likelihood G. Cowan, K. Cranmer, E. Gross , O. Vitells
+
+[1] Isaac Asimov, Franchise, in Isaac Asimov: The Complete Stories, Vol. 1, Broadway Books, 1990.
+
+A useful element of the method involves estimation of the median significance by replacing the ensemble of simulated data sets by a single representative one, referred to here as the “Asimov” data set.
+
+https://arxiv.org/pdf/1007.1727.pdf
+
+http://e-pepys.livejournal.com/47526.html
+
+22 beam spot
+
+Using charged-particle tracks emerging from pp collisions and measured by the ATLAS Inner Detector we reconstruct vertices on an event-by-event basis within the HLT. The three-dimensional distribution of these vertices reflects that of the luminosity and can be parametrized by a three-dimensional Gaussian whose paramters are sometimes referred to as the luminous ellipsoid, or also as the “beam spot”. The coordinates of its luminous centroid determine, in the ATLAS coordinate system, the position of the average collision point; the orientation of the luminous ellipsoid in the horizontal (x-z) and vertical (y-z) planes is determined by the angles and relative transverse sizes of the two beams at the IP; and the transverse and longitudinal dimensions of the luminous region, quantified in terms of the luminous sizes , are related to the corresponding IP sizes of the two beams. 
