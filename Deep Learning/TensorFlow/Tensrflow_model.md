@@ -10,14 +10,11 @@ TensorFlow模型是什么样的？
 训练了一个神经网络之后，我们希望保存它以便将来使用。那么什么是TensorFlow模型?Tensorflow模型主要包含我们所培训的网络参数的网络设计或图形和值。因此，Tensorflow模型有两个主要的文件:
 
 a) Meta graph：
-     这是一个协议缓冲区，它保存了完整的Tensorflow图形;即所有变量、操作、集合等。该文件以.meta作为扩展名。
+这是一个协议缓冲区，它保存了完整的Tensorflow图形;即所有变量、操作、集合等。该文件以.meta作为扩展名。
 
 b) Checkpoint file：
-
-    这是一个二进制文件，它包含了所有的权重、偏差、梯度和其他所有变量的值。这个文件有一个扩展名.ckpt。然而，Tensorflow从0.11版本中改变了这一点。现在，我们有两个文件，而不是单个.ckpt文件:
-
-mymodel.data-00000-of-00001
-mymodel.index
+这是一个二进制文件，它包含了所有的权重、偏差、梯度和其他所有变量的值。这个文件有一个扩展名.ckpt。然而，Tensorflow从0.11版本中改变了这一点。现在，我们有两个文件，而不是单个.ckpt文件:mymodel.data-00000-of-00001mymodel.index
+    
 .data文件是包含我们训练变量的文件，我们待会将会使用它。
 
 与此同时，Tensorflow也有一个名为checkpoint的文件，它只保存的最新保存的checkpoint文件的记录。
@@ -31,6 +28,7 @@ mymodel.index
 inception_v1.meta
 inception_v1.ckpt
 checkpoint
+
 现在我们已经知道了Tensorflow模型的样子，接下来我们来看看TensorFlow是如何保存模型的。
 
 2. 保存TensorFlow模型
@@ -91,7 +89,6 @@ a)创建网络
 
 saver = tf.train.import_meta_graph('my_test_model-1000.meta')
 记住，import_meta_graph将在.meta文件中定义的网络附加到当前图。因此，这将为你创建图形/网络，但是我们仍然需要加载我们在这张图上训练过的参数的值。
-
 
 
 b)载入参数
