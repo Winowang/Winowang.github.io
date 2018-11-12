@@ -4,7 +4,7 @@
 # Welcome to Winowang personal page
 
 
-This a page to show the personal collection which includes the Deep Learning, Machine Learning and some others useful information on the IT or physical knowlwdge(as I am PhD in particel physics even I quited the physics field, I'd like to keep this).
+This a page to show the personal collection which includes the Deep Learning, Machine Learning and some others useful information on the IT or physical knowlwdge(as I am PhD in particel physics, I'd like to keep this even I quited the physics field).
 
 Still you can find some my personal project later and will update those regularly. 
 
